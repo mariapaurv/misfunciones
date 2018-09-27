@@ -15,6 +15,10 @@ void LeeNotas(float Notas[], unsigned int n)
 
 float CalcularPromedio(float Notas[],unsigned int n)
 {//-----------------------------------------------
+    float Suma=0;
+    for (int i=0; i<n; i++)
+      Suma += Notas [i];
+    return (Suma/n);
 
 }
 
